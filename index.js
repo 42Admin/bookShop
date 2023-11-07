@@ -9,7 +9,7 @@ app.use(require('./routes/authors.route'))
  app.use(require('./routes/reviews.route'))
 app.use(require('./routes/genres.route'))
 
-mongoose.connect('mongodb+srv://hasashi:hasashi@cluster0.hnnkubs.mongodb.net/Books')
+mongoose.connect('mongodb+srv://Denn:usupov_06.12.2004@cluster0.85wpugk.mongodb.net/')
 .then(() => console.log('Успешно подключено'))
 .catch(() => console.log('Не удалось подключиться'));
 
